@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T11:18:27.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="qzVe4_cEmSJYudx1Z7eR" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-19T11:44:27.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="FYduEEDVwPihPvYs3R6v" version="13.10.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-3" value="Accessories store" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="560" y="511" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Accessories store responsibilities:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;Store accessories&lt;/li&gt;&lt;li&gt;Request accessories&lt;/li&gt;&lt;li&gt;Fetch more info content&lt;/li&gt;&lt;li&gt;add item to basket&lt;/li&gt;&lt;li&gt;remore item from basket&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Accessories store responsibilities:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;Store accessories&lt;/li&gt;&lt;li&gt;Fetch more info content&lt;/li&gt;&lt;li&gt;add item to basket&lt;/li&gt;&lt;li&gt;remore item from basket&lt;/li&gt;&lt;li&gt;notify sticky basket&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="511" width="290" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.56;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="7Ce21E6pJZC-Ax0Yo5jJ-7" target="7Ce21E6pJZC-Ax0Yo5jJ-2">
@@ -46,7 +46,7 @@
         <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-12" value="Main store responsibilities:&lt;br&gt;&lt;ul&gt;&lt;li&gt;initialise stores&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="750" y="50" width="380" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-17" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Filtering store responsibilities:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;interact with the the filtering component&lt;/li&gt;&lt;li&gt;Request accessories with filters&lt;/li&gt;&lt;li&gt;Store filters&lt;/li&gt;&lt;li&gt;Clear filters&lt;/li&gt;&lt;li&gt;check if any filter is present in the query string at start&lt;/li&gt;&lt;li&gt;if filters are present, pass them to filtering store&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-17" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Filtering store responsibilities:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;&lt;span&gt;Request accessories&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Store filters&lt;/li&gt;&lt;li&gt;Clear filters&lt;/li&gt;&lt;li&gt;interact with the the filtering component&lt;/li&gt;&lt;li&gt;check if any filter is present in the query string at start&lt;/li&gt;&lt;li&gt;if filters are present, pass them to filtering store&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="630" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-18" value="Pagination store responsibilities:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Fetch accessories data with api&lt;/li&gt;&lt;li&gt;Store current page&lt;/li&gt;&lt;li&gt;Handle pagination / interact with pagination component&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -58,8 +58,8 @@
         <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-20" value="Accessory Store post item to basket api" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="1">
           <mxGeometry x="564" y="1090" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-21" value="&lt;h1&gt;Add Item to basket&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1020" width="395" height="50" as="geometry" />
+        <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-21" value="&lt;h1&gt;Add/remove Item to/from basket&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1020" width="500" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7Ce21E6pJZC-Ax0Yo5jJ-22" value="&lt;h1&gt;Flows&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="70" y="950" width="395" height="50" as="geometry" />
